@@ -112,6 +112,8 @@ export class Select extends withFoundation({
 })<SelectPropsT> {
   static displayName = 'Select';
 
+  context: any;
+
   disabled: boolean;
 
   syncWithProps(nextProps: SelectPropsT) {
